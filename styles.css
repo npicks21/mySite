@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+ 
+@media all and (max-width:600px) {
+	body {
+		padding-left: 100px;
+	}
+ }
+
+ body {
+	 background-color: #111;
+	 color: #ddd;
+	 padding: 0;
+	 font-family: 'Indie Flower', cursive;
+}
+ #main {
+	 display: flex;
+	 width: 600px;
+	 margin: auto;
+	 padding-top: 20vh;
+	 margin-bottom: 50px;
+}
+ #name {
+	 width: 300px;
+	 height: 400px;
+	 border-right: 1px solid #ddd;
+	 font-family: 'Satisfy', cursive;
+}
+ #info {
+	 width: 300px;
+	 height: 400px;
+	 display: flex;
+	 align-items: flex-end;
+}
+ #mail {
+	 margin: 5px;
+	 margin-bottom: 10px;
+}
+ #qo {
+	 margin: 5px;
+}
+ #ln {
+	 margin: 5px;
+	 margin-left: 25px;
+}
+ #fname {
+	 font-size: 5em;
+	 color: #aaa;
+}
+ #sname {
+	 font-size: 3.7em;
+	 color: #fff;
+}
+ #site {
+	 font-size: 1.5em;
+}
+ 
